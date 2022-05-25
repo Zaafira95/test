@@ -1,0 +1,6 @@
+<Files index.html>
+    AuthUserFile ".htpasswd"
+    AuthName "Zone restreinte"
+    AuthType Basic
+    require valid-user
+</Files>
